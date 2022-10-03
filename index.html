@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <title>Tic Tac Toe Game</title>
+</head>
+<body>
+    
+    <nav>
+        <ul><li>MyTicTacToe.com</li></ul>
+        <button id="vicVidToggle" onclick="toggleVicVid()">Victory Vid off</button>
+    </nav>
+    <!-- <img id="victoryDance" src="../images/victoryDance1.gif" alt="" > -->
+    <video id="victoryDance" src="images/victoryDance.mp4" ></video>
+    <div class="container">
+        <div id="other-game-elements">
+            <div>
+                <h2>Welcome to Tic Tac Toe!</h2>
+            </div>
+                <p id="turn-element">Turn for X</p>
+
+                <button type="reset" id="reset" onclick="reset()">Reset</button>
+        </div>
+
+        <div id="game-container">
+            <div class="box remove-top remove-left"></div>
+            <div class="box remove-top"></div>
+            <div class="box remove-top remove-right"></div>
+            <div class="box remove-left"></div>
+            <div class="box"></div>
+            <div class="box remove-right"></div>
+            <div class="box remove-bottom remove-left"></div>
+            <div class="box remove-bottom"></div>
+            <div class="box remove-bottom remove-right"></div>
+        </div>
+
+    </div>
+    <div id="matchResult">
+        <div id="match-result-bg"></div>
+        <p id="result-text">Winner is X</p>
+    </div>
+
+    <!-- JavaScriptFile -->
+    <script src="javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+/* Remove Border from Tic Tac Toe Box */
+.remove-top{
+    border-top: none;
+}
+.remove-bottom{
+    border-bottom: none;
+}
+.remove-left{
+    border-left: none;
+}
+.remove-right{
+    border-right: none;
+}
+
+
+
