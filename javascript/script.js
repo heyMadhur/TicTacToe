@@ -7,9 +7,9 @@ let turn = 'X';
 let turnFor = document.getElementById('turn-element');
 let victoryDance = document.getElementById('victoryDance');
 let vicVidShower = "off";
-let yeah = new Audio('../audios/yeah.mp3')
-let ting = new Audio('../audios/ting.mp3');
-let aww = new Audio('../audios/aww.mp3');
+let yeah = new Audio('audios/yeah.mp3')
+let ting = new Audio('audios/ting.mp3');
+let aww = new Audio('audios/aww.mp3');
 let matchResult = document.getElementById('matchResult');
 let winningOutcomes = [
   { arr: [1, 2, 3] },
